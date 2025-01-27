@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Animation for Fatima</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="name" class="name">Fatima</div>
+        <div class="heart" onclick="changeName()"></div>
+    </div>
+
+    <script>
+        function changeName() {
+            let nameElement = document.getElementById("name");
+            if (nameElement.innerText === "naaaah the original one fatima") {
+                nameElement.innerText = "Kawter";
+            } else {
+                nameElement.innerText = "naaaah the original one fatima ";
+            }
+        }
+    </script>
+</body>
+</html>
